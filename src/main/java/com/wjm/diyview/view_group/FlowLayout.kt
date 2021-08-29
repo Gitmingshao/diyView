@@ -14,7 +14,7 @@ import kotlin.collections.ArrayList
 class FlowLayout @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ViewGroup(context, attrs, defStyleAttr) {
-
+//
 
     private val mViewLines = arrayListOf<MutableList<View>>()
     private val mFlowData = ArrayList<String>()
